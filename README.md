@@ -76,6 +76,15 @@ Fields go to `results/fields`, per-voyage results to `results/tables`, trained a
 `results/runs/<run>/` (policy, training log, evaluation), figures to `results/figures`, a log of
 all steps to `results/log.txt`.
 
+## Result tables
+
+`paper_tables.zip` holds the `results/tables` folder of the full run behind the paper: the
+per-voyage results of every method (planner, radar baselines, trained agents) and the summary
+tables (see the map below). Unzip it into `results/` to check the numbers without recomputing.
+`make_figures.py` then rebuilds the figures whose inputs are all in the archive; the maps
+(Figs. 2 and 6) also need the ice fields from `build_fields.py`, and the figures of the trained
+agents need `results/runs` from `train_agents.py`.
+
 ## Where the numbers of the paper come from
 
 | Paper (S = supplementary material) | File in `results/tables` (or `results/figures`) |
