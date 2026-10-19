@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this software."
+title: "sicroute: code for \"Sea ice data uncertainty in voyage planning in the Barents and Kara Seas: the cost of product error, on-board radar and the limits of reinforcement learning\""
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Danilov
+    given-names: Boris
+  - family-names: Dong
+    given-names: Junyu
+  - family-names: Said Ben Salah
+    given-names: Amal
